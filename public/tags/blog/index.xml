@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Bloody Data</title>
+    <link>/tags/blog/</link>
+    <description>Recent content in Blog on Bloody Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blogdown - An R Package For Blogging [How-To]</title>
+      <link>/2017/06/04/setting-up-a-personal-blog-with-the-blogdown-r-package/</link>
+      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/04/setting-up-a-personal-blog-with-the-blogdown-r-package/</guid>
+      <description>Why blogdown? Do you use R? Or are interested in learning about using R for your academic or business analyses?
+Do you want to create professional-looking reports showcasing your analyses?
+Want to put up your work on the web?
+Look no further! The RStudio team just dropped blogdown, an R package that makes it easy to create a professional looking websites.
+Here are a couple of things which make blogdown awesome:</description>
+    </item>
+    
+  </channel>
+</rss>

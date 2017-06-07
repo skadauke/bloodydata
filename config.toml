@@ -1,0 +1,40 @@
+baseurl = "https://bloodydata.netlify.com"
+relativeurls = true
+languageCode = "en-us"
+title = "Bloody Data"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = "bloodydata"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/skadauke"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/StephanKadauke"
+
+[params]
+    description = "Transfusion Medicine and Data Science"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
